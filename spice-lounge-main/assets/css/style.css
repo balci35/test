@@ -1,0 +1,71 @@
+/* COMMON */
+body {
+  font-family: Oswald;
+  font-size: 1rem;
+}
+/* COMMON */
+
+/* CAROUSEL */
+
+.carousel .carousel-item {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* CAROUSEL */
+
+/* NAVBAR */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar-dark .navbar-brand {
+  font-size: 2rem;
+  color: #d6d6d6;
+  font-weight: 700;
+}
+
+.navbar-dark .navbar-brand span {
+  color: #f32c2c;
+  padding: 0rem 0.2rem;
+}
+
+.navbar-nav {
+  font-weight: 300;
+}
+
+.navbar-nav .nav-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navbar-main {
+  top: 65vh;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+/* NAVBAR */
+
+/* SOCIAL MEDIA */
+
+.social-media {
+  list-style-type: none;
+  display: flex;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1;
+}
+
+.social-media a {
+}
+
+/* SOCIAL MEDIA */
